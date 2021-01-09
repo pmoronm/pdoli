@@ -33,9 +33,9 @@ To test this repository (Linux or Windows), please install, in case you still di
 
 ## Build
 
-Take a look at `Dockerfile`, adjust version numbers if needed (don't worry much about environment variables at this point, they will be overriden at runtime by `docker-compose.yml`, explained below) and run from your bash command line:
+To build the Dolibarr image, take a look at `Dockerfile`, adjust version numbers if needed (don't worry much about environment variables at this point, they will be overriden at runtime by `docker-compose.yml`, explained below) and run from your bash command line:
 ```sh
-# ./1container.sh
+# ./1image.sh
 ```
 
 
