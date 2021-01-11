@@ -14,7 +14,7 @@ services:
             - internal-pod
 
     web:
-        image: pmoronm/dolibarr:12.0.3
+        image: pmoronm/dolibarr:12.0.4
         environment:
             DOLI_INSTALL_AUTO: 0
             DOLI_DB_HOST: mariadb

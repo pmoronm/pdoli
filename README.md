@@ -13,7 +13,8 @@ Some customizations that took place in this repository:
 
 ## Supported tags
 
-* 12.0.3 12 latest
+* 12.0.4 12 latest
+* 12.0.3
 
 
 ## What is Dolibarr ?
@@ -33,7 +34,7 @@ To test this repository (Linux or Windows), please install, in case you still di
 
 ## Build
 
-To build the Dolibarr image, take a look at `Dockerfile`, adjust version numbers if needed (don't worry much about environment variables at this point, they will be overriden at runtime by `docker-compose.yml`, explained below) and run from your bash command line:
+To build the Dolibarr image, take a look at `Dockerfile` and `1image.sh`, adjust version numbers if needed (don't worry too much at this moment about the rest of the environment variables, they will be overriden at runtime by `docker-compose.yml`, explained below) and run from your bash command line:
 ```sh
 # ./1image.sh
 ```
